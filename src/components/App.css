@@ -1,0 +1,91 @@
+/* Layout */
+
+.wrapper {
+  max-width: 350px;
+  min-height: 200px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 0px #bfbfbf;
+}
+
+/* Flexbox */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Components */
+
+.heading {
+  text-align: center;
+  font-weight: lighter;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 35px;
+  font-size: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+}
+
+input::placeholder {
+  color: #90949C;
+}
+
+button {
+  width: 60px;
+  height: 35px;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  background-color: #587aad;
+  color: #fff;
+  border-radius: 2px;
+
+}
+
+/* List */
+
+ul {
+  list-style: none;
+  padding: 1em;
+}
+
+ul li {
+  word-break: break-all;
+}
+
+.item {
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.detail {
+  margin-right: 10px;
+}
+
+.x-box {
+  display: inline-block;
+  width: 24px;
+}
+
+.close-x {
+  stroke: grey;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-width: 5;
+  width: 20px;
+}
+
+.close-x:hover {
+  stroke: black;
+}
