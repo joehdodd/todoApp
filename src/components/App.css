@@ -47,10 +47,13 @@ button {
   font-size: 1em;
   border: none;
   outline: none;
-  background-color: #587aad;
+  background-color: #3B5998;
   color: #fff;
   border-radius: 2px;
+}
 
+button:hover {
+  background-color: #2F477A;
 }
 
 /* List */
