@@ -19,7 +19,7 @@ class App extends Component {
     // check if there is any item in localStorage
     const localStorageRef = localStorage.getItem(`item`);
     if(localStorageRef) {
-      //update <App> order state
+      //update <App> state
       this.setState({
         items: JSON.parse(localStorageRef)
       });
